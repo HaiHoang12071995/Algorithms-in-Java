@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   
   <parent>
-    <groupId>com.code2bits.opensort</groupId>
+    <groupId>com.code2bits.algorithm</groupId>
     <artifactId>multi</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>opensort-core</artifactId>
-  <name>opensort-core</name>
+  <artifactId>sort</artifactId>
+  <name>sort</name>
   <packaging>jar</packaging>
 
 </project>
