@@ -33,7 +33,7 @@ import org.junit.Test;
 
 /**
  * The QuickSortTest class forms part of the Test Driven Development approach to test the 
- * QuickSortAlgorithm class.
+ * QuickSort class.
  * 
  * @author	André Maré
  */
