@@ -11,6 +11,11 @@
 
 ## Pseudocode
 
+32^nd^
+
+H~2~O
+
+
 
 ## BubbleSort In Java
 
