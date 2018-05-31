@@ -4,8 +4,10 @@
 
 ## Algorithm Classification 
 
+| Classification | Value| 
+| --- | --- | 
 | Data structure | Array |
-| Worst-case performance | O(n^2) |
+| Worst-case performance | O(n^2^) |
 
 ## Pseudocode
 
