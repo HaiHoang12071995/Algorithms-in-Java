@@ -7,13 +7,10 @@
 | Classification | Value| 
 | --- | --- | 
 | Data structure | Array |
-| Worst-case performance | O(n^2^) |
+| Worst-case performance | O(n<sup>2</sup>) |
 
 ## Pseudocode
 
-32^nd^
-
-H~2~O
 
 
 
