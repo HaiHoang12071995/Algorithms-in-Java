@@ -5,6 +5,11 @@ Algorithms existed long before computers existed. An algorithm is a process or s
 This repository contains a number of the well known algorithms implemented in the Java programming language.
 
 ## Sorting Algorithms
+Sorting algorithms is a process of organising a collection of data in a ascending or descending order. Sorting algorithms can be used as stand alone algorithms or as part of other algorithms like search algorithms. The binary search algorithm is a very efficient way to search large collections of data. Sorting is a pre-requisite for most searching algorithms.
+
+Sorting algorithms can be classified into two types of algorithms: internal and external. Internal sorting algorithms require the full data set to fit into main memory whereas external sort is used when the full data set will not fit into the main memory of a computer.
+
+The following algorithms are examples of internal sorting algorithms:
 * Bubble Sort
 * Bubble Sort Recursive
 * Insertion Sort
