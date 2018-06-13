@@ -11,7 +11,7 @@ As we start to learn the different sorting algorithms, we should also learn tech
 The performance of algorithm is measured on the basis of following properties:
 
 * **Time Complexity**: Time Complexity is the computational complexity that describes the amount of time it takes to run an algorithm.
-* **Space Complexity**: Space Complexity is the amount of memory space required by an algorithm.
+* **Space Complexity**: Space Complexity is the computational complexity that describes the amount of memory space required by an algorithm.
 
 ## Algorithm Classification
 The following table contains information about the analysis of the BubbleSort algorithm. It defines the worst, average and best case scenarios in terms of time complexity and also the worst case in space complexity.
@@ -25,11 +25,7 @@ The following table contains information about the analysis of the BubbleSort al
 | TimeComplexity: Best | O(n) |
 | Space Complexity: Worst | O(1) |
 
-<img
-  src="http://www.bigocheatsheet.com/img/big-o-cheat-sheet-poster.png"
-  width="60"
-  align="right"
-/>
+Please use the following [link][0] for an explanation on Big-O notation and what is good, fair and bad.
 
 ## Pseudocode
 The following is the pseudocode for the BubbleSort algorithm.
@@ -89,5 +85,6 @@ The BubbleSort algorithm forms part of a larger group of sorting algorithms. Lea
 
 Learning how to solve difference problems and algorithms with certain techniques, one starts to develop certain pattern recognition abilities which will help you in future when similar problems arise.
 
+[0]: http://www.bigocheatsheet.com/img/big-o-cheat-sheet-poster.png
 [1]: https://github.com/Code2Bits/Algorithms-in-Java/blob/master/sort/src/main/java/com/code2bits/algorithm/sort/BubbleSort.java
 [2]: https://github.com/Code2Bits/Algorithms-in-Java/blob/master/sort/src/test/java/com/code2bits/algorithm/sort/BubbleSortTest.java
