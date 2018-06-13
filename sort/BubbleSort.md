@@ -3,16 +3,6 @@
 ## Overview
 Bubble sort is sometimes referred to as sinking sort. The bubble sort algorithm repeatedly steps through the list and compare each adjacent item. The pair of values gets swapped if they are in the wrong order. The algorithm gets its name from the way smaller or larger elements "bubble" to the top of the list.
 
-## Why Study Algorithms
-The question always come up, why do we study sorting algorithms and why even care? The sorting algorithms are all very different to each other but with the same Pre- and Post-Conditions. There are many ways to implement an algorithm to sort an array of integer values where the pre-condition and the post-conditions will be the exact same, but the behaviour and complexity of the algorithm is different. We would like to have a way to measure an algorithm to determine which is a good algorithm and which is best.
-
-As we start to learn the different sorting algorithms, we should also learn techniques on how to measure the performance of algorithms.
-
-The performance of algorithm is measured on the basis of following properties:
-
-* **Time Complexity**: Time Complexity is the computational complexity that describes the amount of time it takes to run an algorithm.
-* **Space Complexity**: Space Complexity is the computational complexity that describes the amount of memory space required by an algorithm.
-
 ## Algorithm Classification
 The following table contains information about the analysis of the BubbleSort algorithm. It defines the worst, average and best case scenarios in terms of time complexity and also the worst case in space complexity.
 
