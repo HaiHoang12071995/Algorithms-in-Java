@@ -20,10 +20,16 @@ The following table contains information about the analysis of the BubbleSort al
 | --- | --- |
 | Class | Sorting Algorithm |
 | Data Structure | Array |
-| Worst Case Performance | O(n<sup>2</sup>) Comparisons, O(n<sup>2</sup>) Swaps |
-| Average Case Performance | O(n<sup>2</sup>) Comparisons, O(n<sup>2</sup>) Swaps |
-| Best Case Performance | O(n) Comparisons, O(1) Swaps|
-| Worst Case Space Complexity | O(1) auxiliary |
+| Time Complexity: Worst | O(n<sup>2</sup>) |
+| Time Complexity: Average | O(n<sup>2</sup>) |
+| TimeComplexity: Best | O(n) |
+| Space Complexity: Worst | O(1) |
+
+<img
+  src="http://www.bigocheatsheet.com/img/big-o-cheat-sheet-poster.png"
+  width="60"
+  align="right"
+/>
 
 ## Pseudocode
 The following is the pseudocode for the BubbleSort algorithm.
