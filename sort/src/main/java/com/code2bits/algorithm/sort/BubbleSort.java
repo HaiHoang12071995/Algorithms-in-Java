@@ -44,7 +44,7 @@ public final class BubbleSort {
 		if (collection != null) {
 			bubbleSort(collection);
 		} else {
-			throw new IllegalArgumentException("Input paramenter for array to sort is null.");
+			throw new IllegalArgumentException("Input parameter for array to sort is null.");
 		}
 	} 
 	
@@ -72,6 +72,6 @@ public final class BubbleSort {
     		collection[x] = collection[y];
     		collection[y] = temp;
     	}
-
+    	
     	
 }
