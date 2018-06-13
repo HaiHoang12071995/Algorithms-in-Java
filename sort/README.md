@@ -3,7 +3,7 @@ Sorting algorithms is a process of organising a collection of data in a ascendin
 
 Sorting algorithms can be classified into two types of algorithms: internal and external. Internal sorting algorithms require the full data set to fit into main memory whereas external sort is used when the full data set will not fit into the main memory of a computer.
 
-## Why Study Algorithms
+## Why Study Sorting Algorithms
 The question always come up, why do we study sorting algorithms and why even care? The sorting algorithms are all very different to each other but with the same Pre- and Post-Conditions. There are many ways to implement an algorithm to sort an array of integer values where the pre-condition and the post-conditions will be the exact same, but the behaviour and complexity of the algorithm is different. We would like to have a way to measure an algorithm to determine which is a good algorithm and which is best.
 
 As we start to learn the different sorting algorithms, we should also learn techniques on how to measure the performance of algorithms.
