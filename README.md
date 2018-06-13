@@ -5,7 +5,7 @@ Algorithms existed long before computers existed. An algorithm is a process or s
 This repository contains a number of the well known algorithms implemented in the Java programming language.
 
 ## Algorithms
-* [Sorting Algorithms](sort/README.md)
+* [Sorting Algorithms](sort/)
 
 ## License
 
