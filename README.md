@@ -10,7 +10,7 @@ Sorting algorithms is a process of organising a collection of data in a ascendin
 Sorting algorithms can be classified into two types of algorithms: internal and external. Internal sorting algorithms require the full data set to fit into main memory whereas external sort is used when the full data set will not fit into the main memory of a computer.
 
 The following algorithms are examples of internal sorting algorithms:
-* Bubble Sort
+* [Bubble Sort](sort/BubbleSort.md)
 * Bubble Sort Recursive
 * Insertion Sort
 * Insertion Sort Recursive
