@@ -17,34 +17,35 @@ Bubble sort is sometimes referred to as sinking sort. The bubble sort algorithm 
 
 
 ## BubbleSort In Java
+The BubbleSort class implements the BubbleSort algorithm for sorting an array of integers.
 
 ```java
 public final class BubbleSort {
 
-public void sort(int[] collection) {
-  if (collection != null) {
-    bubbleSort(collection);
-  } else {
-    throw new IllegalArgumentException("Input parameter for array to sort is null.");
-  }
-}
+    public void sort(int[] collection) {
+      if (collection != null) {
+        bubbleSort(collection);
+      } else {
+        throw new IllegalArgumentException("Input parameter for array to sort is null.");
+      }
+    }
 
-private void bubbleSort(int[] collection) {
-      int n = collection.length;
-      for (int i = 0; i < n-1; i++) {
-          for (int j = 0; j < n-i-1; j++) {
-              if (collection[j] > collection[j+1]) {
-                  swap(collection, j, j+1);
+    private void bubbleSort(int[] collection) {
+          int n = collection.length;
+          for (int i = 0; i < n-1; i++) {
+              for (int j = 0; j < n-i-1; j++) {
+                  if (collection[j] > collection[j+1]) {
+                      swap(collection, j, j+1);
+                  }
               }
           }
-      }
-}
+    }
 
-private void swap(int[] collection, int x, int y) {
-  int temp = collection[x];
-  collection[x] = collection[y];
-  collection[y] = temp;
-}
+    private void swap(int[] collection, int x, int y) {
+      int temp = collection[x];
+      collection[x] = collection[y];
+      collection[y] = temp;
+    }
 
 }
 ```
