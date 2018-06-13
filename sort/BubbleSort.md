@@ -63,9 +63,9 @@ public final class BubbleSort {
 
 }
 ```
-
-The details of the BubbleSort class can be viewed [here][1].
-The details of the BubbleSort JUnit Test class can be viewed [here][2].
+### Sample Code (GitHub)
+* The details of the BubbleSort class can be viewed [here][1].
+* The details of the BubbleSort JUnit Test class can be viewed [here][2].
 
 ## Conclusion
 The BubbleSort algorithm forms part of a larger group of sorting algorithms. Learning through experience is the reason I created this post about the implementation of the BubbleSort algorithm in Java. I have learned a lot about how others have solved the BubbleSort algorithm in other languages including different implementations in Java.
