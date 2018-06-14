@@ -27,7 +27,7 @@ The following algorithms are examples of internal sorting algorithms:
 * [Timsort](Timsort.md)
 * [Tree Sort](TreeSort.md)
 * [Selection Sort](SelectionSort.md)
-* Shell Sort
+* [Shell Sort](ShellSort.md)
 
 
 ## Conclusion
