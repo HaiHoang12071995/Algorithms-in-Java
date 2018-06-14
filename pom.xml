@@ -19,7 +19,7 @@
 
   <modules>
     <module>sort</module>
-    <module>mathematics<module>
+    <module>mathematics</module>
   </modules>
 
   <dependencies>
