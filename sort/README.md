@@ -19,7 +19,7 @@ The following algorithms are examples of internal sorting algorithms:
 * [Bucket Sort](BucketSort.md)
 * [Counting Sort](CountingSort.md)
 * [Cube Sort](CubeSort.md)
-* Heapsort
+* [Heapsort](Heapsort.md)
 * Insertion Sort
 * Mergesort
 * Quicksort
