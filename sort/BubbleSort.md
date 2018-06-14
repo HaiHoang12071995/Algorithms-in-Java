@@ -1,10 +1,10 @@
-# Sort Algorithm: BubbleSort
+# Sort Algorithm: Bubble Sort
 
 ## Overview
 Bubble sort is sometimes referred to as sinking sort. The bubble sort algorithm repeatedly steps through the list and compare each adjacent item. The pair of values gets swapped if they are in the wrong order. The algorithm gets its name from the way smaller or larger elements "bubble" to the top of the list.
 
 ## Algorithm Classification
-The following table contains information about the analysis of the BubbleSort algorithm. It defines the worst, average and best case scenarios in terms of time complexity and also the worst case in space complexity.
+The following table contains information about the analysis of the BubbleSort algorithm. It defines the worst, average and best cases in terms of time complexity and also the worst case in space complexity.
 
 | Classification | Value|
 | --- | --- |
