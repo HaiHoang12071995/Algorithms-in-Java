@@ -24,7 +24,7 @@ The following algorithms are examples of internal sorting algorithms:
 * [Mergesort](Mergesort.md)
 * [Quicksort](Quicksort.md)
 * [Radix Sort](RadixSort.md)
-* Timsort
+* [Timsort](Timsort.md)
 * Tree Sort
 * Selection Sort
 * Shell Sort
