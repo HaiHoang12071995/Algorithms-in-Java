@@ -16,11 +16,18 @@ The performance of algorithm is measured on the basis of following properties:
 ## List of Sort Algorithms
 The following algorithms are examples of internal sorting algorithms:
 * [Bubble Sort](BubbleSort.md)
-* Bubble Sort Recursive
+* [Bucket Sort](BucketSort.md)
+* Counting Sort
+* Cube Sort
+* Heapsort
 * Insertion Sort
-* Insertion Sort Recursive
-* Quick Sort
+* Mergesort
+* Quicksort
+* Radix Sort
+* Timsort
+* Tree Sort
 * Selection Sort
+* Shell Sort
 
 
 ## Conclusion
