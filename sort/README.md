@@ -21,7 +21,7 @@ The following algorithms are examples of internal sorting algorithms:
 * [Cube Sort](CubeSort.md)
 * [Heapsort](Heapsort.md)
 * [Insertion Sort](InsertionSort.md)
-* Mergesort
+* [Mergesort](Mergesort.md)
 * Quicksort
 * Radix Sort
 * Timsort
