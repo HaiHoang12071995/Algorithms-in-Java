@@ -70,6 +70,46 @@ public final class BubbleSort {
 * The details of the BubbleSort class can be viewed [here][1].
 * The details of the BubbleSort JUnit Test class can be viewed [here][2].
 
+## BubbleSort In Java (Recursive)
+The BubbleSort class implements the BubbleSort algorithm for sorting an array of integers. The following is the recursive implementation of the BubbleSort algorithm in Java.
+
+```java
+public final class BubbleSortRecursive {
+
+  	public void sort(int[] collection) {
+  		if (collection != null) {
+  			bubbleSort(collection, collection.length);
+  		} else {
+  			throw new IllegalArgumentException("Input parameter for array to sort is null.");
+  		}
+  	}
+
+  	private void bubbleSort(int[] collection, int arrayLength) {
+          if (arrayLength == 1) {
+              return;
+          }
+
+          for (int i=0; i < arrayLength-1; i++) {
+              if (collection[i] > collection[i+1]) {
+              		swap(collection, i, i+1);
+              }
+          }
+
+          bubbleSort(collection, arrayLength-1);
+  	}
+
+    private void swap(int[] collection, int x, int y) {
+    	int temp = collection[x];
+    	collection[x] = collection[y];
+    	collection[y] = temp;
+    }
+
+}
+```
+### Sample Code (GitHub)
+* The details of the BubbleSortRecursive class can be viewed [here][3].
+* The details of the BubbleSortRecursive JUnit Test class can be viewed [here][4].
+
 ## Conclusion
 The BubbleSort algorithm forms part of a larger group of sorting algorithms. Learning through experience is the reason I created this post about the implementation of the BubbleSort algorithm in Java. I have learned a lot about how others have solved the BubbleSort algorithm in other languages including different implementations in Java.
 
