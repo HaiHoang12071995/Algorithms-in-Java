@@ -47,7 +47,7 @@ public class BubbleSortTest {
 	} 
  
 	@Test
-	public void testQuickSort() {
+	public void testBubbleSort() {
 		int input[] = new int[]{6,1,7,9,3,8,2,5,4,0};
 		int sorted[] = {0,1,2,3,4,5,6,7,8,9};
 		BubbleSort sort = new BubbleSort();

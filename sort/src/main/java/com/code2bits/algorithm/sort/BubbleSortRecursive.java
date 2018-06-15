@@ -46,9 +46,10 @@ public final class BubbleSortRecursive {
 		if (collection != null) {
 			bubbleSort(collection, collection.length);
 		} else {
-			throw new IllegalArgumentException("Input paramenter for array to sort is null.");
+			throw new IllegalArgumentException("Input parameter for array to sort is null.");
 		}
 	} 
+	
 	
 	/**
 	 * The Bubble Sort algorithm repeatedly steps through the list and compare each adjacent item. The pair 
@@ -57,27 +58,27 @@ public final class BubbleSortRecursive {
 	 * is repeated by recursively invoking the method excluding the last (top) position of the array.
 	 */
 	private void bubbleSort(int[] collection, int arrayLength) {
-        if (arrayLength == 1) {
-            return;
-        }
-
-        for (int i=0; i < arrayLength-1; i++) {
-            if (collection[i] > collection[i+1]) {
-            		swap(collection, i, i+1);
-            }
-        }
-        
-        bubbleSort(collection, arrayLength-1);
+		if (arrayLength == 1) {
+			return;
+		}
+		
+		for (int i=0; i < arrayLength-1; i++) {
+			if (collection[i] > collection[i+1]) {
+				swap(collection, i, i+1);
+			}
+		}
+		
+		bubbleSort(collection, arrayLength-1);
 	}
         
         
-    	/**
-    	 * The method swaps two values around within an array based on the two input parameters x and y.
-    	 */
-    	private void swap(int[] collection, int x, int y) {
-    		int temp = collection[x];
-    		collection[x] = collection[y];
-    		collection[y] = temp;
-    	}
+	/**
+	 * The method swaps two values around within an array based on the two input parameters x and y.
+	 */
+	private void swap(int[] collection, int x, int y) {
+		int temp = collection[x];
+		collection[x] = collection[y];
+		collection[y] = temp;
+	}
 	
 }
