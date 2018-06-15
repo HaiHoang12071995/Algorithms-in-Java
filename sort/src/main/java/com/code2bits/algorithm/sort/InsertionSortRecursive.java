@@ -46,7 +46,7 @@ public final class InsertionSortRecursive {
 		if (collection != null) {
 			insertionSort(collection);
 		} else {
-			throw new IllegalArgumentException("Input paramenter for array to sort is null.");
+			throw new IllegalArgumentException("Input parameter for array to sort is null.");
 		}
 	} 
 	
@@ -67,12 +67,12 @@ public final class InsertionSortRecursive {
 		if (recursiveValue <= 1) {
 			return;
 		}
-        
+	    
 		insertionSort( collection, recursiveValue - 1);
-
+	
 		int last = collection[recursiveValue-1];
 		int j = recursiveValue-2;
-      
+	  
 		while (j >= 0 && collection[j] > last) {
 			collection[j+1] = collection[j];
 			j--;

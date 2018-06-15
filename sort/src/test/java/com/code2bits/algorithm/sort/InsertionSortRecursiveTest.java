@@ -46,6 +46,7 @@ public class InsertionSortRecursiveTest {
 		new InsertionSortRecursive().sort(unsortedArray);
 	} 
  
+	
 	@Test
 	public void testInsertionSortRecursive() {
 		int input[] = new int[]{6,1,7,9,3,8,2,5,4,0};

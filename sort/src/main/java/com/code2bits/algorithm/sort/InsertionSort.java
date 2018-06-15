@@ -45,7 +45,7 @@ public final class InsertionSort {
 		if (collection != null) {
 			insertionSort(collection);
 		} else {
-			throw new IllegalArgumentException("Input paramenter for array to sort is null.");
+			throw new IllegalArgumentException("Input parameter for array to sort is null.");
 		}
 	} 
 	
@@ -58,11 +58,11 @@ public final class InsertionSort {
 	 */
 	private void insertionSort(int[] collection) {
 		int arrayLength = collection.length;
-		
+	
 		for (int i=1; i < arrayLength; ++i) {
 			int keyValue = collection[i];
 			int iterator = i-1;
-	 
+ 
 			while (iterator>=0 && collection[iterator] > keyValue) {
 				collection[iterator+1] = collection[iterator];
 				iterator = iterator-1;

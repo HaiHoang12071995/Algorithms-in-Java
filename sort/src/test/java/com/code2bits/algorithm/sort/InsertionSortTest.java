@@ -46,6 +46,7 @@ public class InsertionSortTest {
 		new InsertionSort().sort(unsortedArray);
 	} 
  
+	
 	@Test
 	public void testInsertionSort() {
 		int input[] = new int[]{6,1,7,9,3,8,2,5,4,0};
