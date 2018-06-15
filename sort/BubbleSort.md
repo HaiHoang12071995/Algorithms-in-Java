@@ -76,15 +76,15 @@ The BubbleSort class implements the BubbleSort algorithm for sorting an array of
 ```java
 public final class BubbleSortRecursive {
 
-  	public void sort(int[] collection) {
-  		if (collection != null) {
-  			bubbleSort(collection, collection.length);
-  		} else {
-  			throw new IllegalArgumentException("Input parameter for array to sort is null.");
-  		}
-  	}
+    public void sort(int[] collection) {
+    	if (collection != null) {
+    		bubbleSort(collection, collection.length);
+    	} else {
+    		throw new IllegalArgumentException("Input parameter for array to sort is null.");
+    	}
+    }
 
-  	private void bubbleSort(int[] collection, int arrayLength) {
+    private void bubbleSort(int[] collection, int arrayLength) {
           if (arrayLength == 1) {
               return;
           }
@@ -96,7 +96,7 @@ public final class BubbleSortRecursive {
           }
 
           bubbleSort(collection, arrayLength-1);
-  	}
+    }
 
     private void swap(int[] collection, int x, int y) {
     	int temp = collection[x];
