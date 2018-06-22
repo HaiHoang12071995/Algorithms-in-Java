@@ -29,11 +29,11 @@ The following algorithms are examples of internal sorting algorithms:
 | [Bubble Sort](BubbleSort.md) | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
 | [Bucket Sort](BucketSort.md) | O(n+k) | O(n+k) | O(n<sup>2</sup>) |  O(n) |
 | [Counting Sort](CountingSort.md) | O(n+k) | O(n+k) | O(n+k) | O(k) |
-| [Cube Sort](CubeSort.md) | | | | |
-| [Heapsort](Heapsort.md) | | | | |
-| [Insertion Sort](InsertionSort.md) | | | | |
-| [Mergesort](Mergesort.md) | | | | |
-| [Quicksort](Quicksort.md) | | | | |
+| [Cube Sort](CubeSort.md) | O(n) | O(n log(n)) | O(n log(n)) | O(n) |
+| [Heapsort](Heapsort.md) | O(n log(n)) | O(n log(n)) | O(n log(n)) | O(1) |
+| [Insertion Sort](InsertionSort.md) | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
+| [Mergesort](Mergesort.md) | O(n log(n)) | O(n log(n)) | O(n log(n)) | O(n) |
+| [Quicksort](Quicksort.md) | O(n log(n)) | O(n<sup>2</sup>) | O(n<sup>2</sup> | O(n<sup>2</sup>) |
 | [Radix Sort](RadixSort.md) | | | | |
 | [Timsort](Timsort.md) | | | | |
 | [Tree Sort](TreeSort.md) | | | | |
