@@ -12,7 +12,7 @@ The following table contains information about the analysis of the Bucket Sort a
 | Data Structure | Array |
 | Time Complexity: Worst | O(n<sup>2</sup>) |
 | Time Complexity: Average | O(n+k) |
-| TimeComplexity: Best | O(n+k) |
+| Time Complexity: Best | O(n+k) |
 | Space Complexity: Worst | O(n) |
 
 Please use the following [link][0] for an explanation on Big-O notation and what is good, fair and bad.
