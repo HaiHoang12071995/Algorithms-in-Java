@@ -2,6 +2,7 @@
 Sorting algorithms is a process of organising a collection of data in an ascending or descending order. Sorting algorithms can be used as stand alone algorithms or as part of other algorithms like search algorithms. The binary search algorithm is a very efficient way to search large collections of data. Sorting is a pre-requisite for most searching algorithms.
 
 **Internal vs. External Sorting**
+
 Sorting algorithms can be classified into two types of algorithms: internal and external. Internal sorting algorithms require the full data set to fit into main memory whereas external sort is used when the full data set does not fit and have to reside on external storage during the sorting process.
 
 **Stable vs. Unstable Sorting**
@@ -27,7 +28,7 @@ The following algorithms are examples of internal sorting algorithms:
 | --- | :---: | :---: | :---: | :---: |
 | [Bubble Sort](BubbleSort.md) | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
 | [Bucket Sort](BucketSort.md) | O(n+k) | O(n+k) | O(n<sup>2</sup>) |  O(n) |
-| [Counting Sort](CountingSort.md) | | | | |
+| [Counting Sort](CountingSort.md) | O(n+k) | O(n+k) | O(n+k) | O(k) |
 | [Cube Sort](CubeSort.md) | | | | |
 | [Heapsort](Heapsort.md) | | | | |
 | [Insertion Sort](InsertionSort.md) | | | | |
