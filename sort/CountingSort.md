@@ -12,7 +12,7 @@ The following table contains information about the analysis of the Counting Sort
 | Data Structure | Array |
 | Time Complexity: Worst | O(n+k) |
 | Time Complexity: Average | O(n+k) |
-| TimeComplexity: Best | O(n+k) |
+| Time Complexity: Best | O(n+k) |
 | Space Complexity: Worst | O(k) |
 
 Please use the following [link][0] for an explanation on Big-O notation and what is good, fair and bad.
