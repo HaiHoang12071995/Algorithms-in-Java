@@ -10,8 +10,8 @@ The following table contains information about the analysis of the BubbleSort al
 | --- | --- |
 | Class | Sorting Algorithm |
 | Data Structure | Array |
-| Time Complexity: Worst | O(n<sup>2</sup>) |
-| Time Complexity: Average | O(n<sup>2</sup>) |
+| Time Complexity: Worst | Ω(n<sup>2</sup>) |
+| Time Complexity: Average | Θ(n<sup>2</sup>) |
 | Time Complexity: Best | O(n) |
 | Space Complexity: Worst | O(1) |
 
