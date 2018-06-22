@@ -26,19 +26,19 @@ The following algorithms are examples of internal sorting algorithms:
 
 | Algorithm Name | Time Complexity: Best | Time Complexity: Average | Time Complexity: Worst | Space Complexity: Worst |
 | --- | :---: | :---: | :---: | :---: |
-| [Bubble Sort](BubbleSort.md) | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
-| [Bucket Sort](BucketSort.md) | O(n+k) | O(n+k) | O(n<sup>2</sup>) |  O(n) |
-| [Counting Sort](CountingSort.md) | O(n+k) | O(n+k) | O(n+k) | O(k) |
-| [Cube Sort](CubeSort.md) | O(n) | O(n log(n)) | O(n log(n)) | O(n) |
-| [Heapsort](Heapsort.md) | O(n log(n)) | O(n log(n)) | O(n log(n)) | O(1) |
-| [Insertion Sort](InsertionSort.md) | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
-| [Mergesort](Mergesort.md) | O(n log(n)) | O(n log(n)) | O(n log(n)) | O(n) |
-| [Quicksort](Quicksort.md) | O(n log(n)) | O(n<sup>2</sup>) | O(n<sup>2</sup> | O(n<sup>2</sup>) |
-| [Radix Sort](RadixSort.md) | | | | |
-| [Timsort](Timsort.md) | | | | |
-| [Tree Sort](TreeSort.md) | | | | |
-| [Selection Sort](SelectionSort.md) | | | | |
-| [Shell Sort](ShellSort.md) | | | | |
+| [Bubble Sort](BubbleSort.md) | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
+| [Bucket Sort](BucketSort.md) | Ω(n+k) | Θ(n+k) | O(n<sup>2</sup>) |  O(n) |
+| [Counting Sort](CountingSort.md) | Ω(n+k) | Θ(n+k) | O(n+k) | O(k) |
+| [Cube Sort](CubeSort.md) | Ω(n) | Θ(n log(n)) | O(n log(n)) | O(n) |
+| [Heapsort](Heapsort.md) | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(1) |
+| [Insertion Sort](InsertionSort.md) | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
+| [Mergesort](Mergesort.md) | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(n) |
+| [Quicksort](Quicksort.md) | Ω(n log(n)) | Θ(n log(n)) | O(n<sup>2</sup> | O(n log(n)) |
+| [Radix Sort](RadixSort.md) | Ω(nk) | Θ(nk) | O(nk) | O(n+k) |
+| [Timsort](Timsort.md) | Ω(n) | Θ(n log(n)) | Θ(n log(n)) | O(n) |
+| [Tree Sort](TreeSort.md) | Ω(n log(n))  | Θ(n log(n)) | O(n<sup>2</sup>) | O(n) |
+| [Selection Sort](SelectionSort.md) | Ω(n<sup>2</sup>) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
+| [Shell Sort](ShellSort.md) | Ω(n log(n)) | Θ(n(log(n))<sup>2</sup>) | O(n(log(n))<sup>2</sup>) | O(1) |
 
 
 ## Conclusion
