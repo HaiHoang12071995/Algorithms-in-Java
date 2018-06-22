@@ -18,7 +18,7 @@ The following algorithms are examples of internal sorting algorithms:
 
 | Algorithm Name | Time Complexity: Best | Time Complexity: Average | Time Complexity: Worst | Space Complexity: Worst |
 | --- | --- | --- | --- | --- |
-| [Bubble Sort](BubbleSort.md) | | | | |
+| [Bubble Sort](BubbleSort.md) | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
 | [Bucket Sort](BucketSort.md) | | | | |
 | [Counting Sort](CountingSort.md) | | | | |
 | [Cube Sort](CubeSort.md) | | | | |
