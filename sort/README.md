@@ -14,6 +14,7 @@ An unstable sorting algorithm is when two objects with equal keys doesn't appear
 ## Why Study Sorting Algorithms
 The question always come up, why do we study sorting algorithms and why even care? The sorting algorithms are all very different to each other but with the same pre- and post-conditions. There are many ways to implement an algorithm to sort an array of integer values where the pre-condition and the post-conditions will be the exact same, but the behaviour and complexity of the algorithm is different. We would like to have a way to measure an algorithm to determine which is a good algorithm and which is best.
 
+## Algorithm Performance
 As we start to learn the different sorting algorithms, we should also learn techniques on how to measure the performance of algorithms.
 
 The performance of algorithm is measured on the basis of following properties:
