@@ -10,9 +10,9 @@ The following table contains information about the analysis of the Timsort algor
 | --- | --- |
 | Class | Sorting Algorithm |
 | Data Structure | Array |
-| Time Complexity: Worst | Ω(n) |
+| Time Complexity: Best | Ω(n) |
 | Time Complexity: Average | Θ(n log(n)) |
-| Time Complexity: Best | Θ(n log(n)) |
+| Time Complexity: Worst | Θ(n log(n)) |
 | Space Complexity: Worst | O(n) |
 
 Please use the following [link][0] for an explanation on Big-O notation and what is good, fair and bad.
