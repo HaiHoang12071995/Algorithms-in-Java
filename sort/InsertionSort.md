@@ -10,10 +10,10 @@ The following table contains information about the analysis of the Insertion Sor
 | --- | --- |
 | Class | Sorting Algorithm |
 | Data Structure | Array |
-| Time Complexity: Worst |  |
-| Time Complexity: Average |  |
-| TimeComplexity: Best |  |
-| Space Complexity: Worst | |
+| Time Complexity: Best | Ω(n) |
+| Time Complexity: Average | Θ(n<sup>2</sup>) |
+| Time Complexity: Worst | O(n<sup>2</sup>) |
+| Space Complexity: Worst | O(1) |
 
 Please use the following [link][0] for an explanation on Big-O notation and what is good, fair and bad.
 
