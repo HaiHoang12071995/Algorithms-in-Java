@@ -10,10 +10,10 @@ The following table contains information about the analysis of the Radix Sort al
 | --- | --- |
 | Class | Sorting Algorithm |
 | Data Structure | Array |
-| Time Complexity: Worst |  |
-| Time Complexity: Average |  |
-| TimeComplexity: Best |  |
-| Space Complexity: Worst | |
+| Time Complexity: Worst | Ω(nk) |
+| Time Complexity: Average | Θ(nk) |
+| Time Complexity: Best | O(nk) |
+| Space Complexity: Worst | O(n+k) |
 
 Please use the following [link][0] for an explanation on Big-O notation and what is good, fair and bad.
 
