@@ -16,6 +16,7 @@ A stable sorting algorithm is when two objects with equal keys appear in the sam
 An unstable sorting algorithm is when two objects with equal keys doesn't appear in the same order in the unsorted input array and the sorted output array. Examples of unstable sorting algorithms are Heap Sort and Quick Sort.
 
 **Time vs. Space Complexity**
+
 Time Complexity is the computational complexity that describes the amount of time it takes to run an algorithm.
 
 Space Complexity is the computational complexity that describes the amount of memory space required by an algorithm.
