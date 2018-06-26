@@ -12,7 +12,7 @@ The following table contains information about the analysis of the Cube Sort alg
 | Data Structure | Array |
 | Time Complexity: Best | Ω(n) |
 | Time Complexity: Average | Θ(n log(n)) |
-| Time Complexity: Worst | Θ(n log(n)) |
+| Time Complexity: Worst | O(n log(n)) |
 | Space Complexity: Worst | O(n) |
 
 Please use the following [link][0] for an explanation on Big-O notation and what is good, fair and bad.
