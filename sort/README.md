@@ -36,10 +36,9 @@ The following algorithms are examples of internal sorting algorithms:
 | [Mergesort](Mergesort.md) | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(n) |
 | [Quicksort](Quicksort.md) | Ω(n log(n)) | Θ(n log(n)) | O(n<sup>2</sup> | O(n log(n)) |
 | [Radix Sort](RadixSort.md) | Ω(nk) | Θ(nk) | O(nk) | O(n+k) |
-| [Timsort](Timsort.md) | Ω(n) | Θ(n log(n)) | Θ(n log(n)) | O(n) |
-| [Tree Sort](TreeSort.md) | Ω(n log(n))  | Θ(n log(n)) | O(n<sup>2</sup>) | O(n) |
 | [Selection Sort](SelectionSort.md) | Ω(n<sup>2</sup>) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
 | [Shell Sort](ShellSort.md) | Ω(n log(n)) | Θ(n log<sup>2</sup>n)  | O(n<sup>2</sup>) | O(1) |
-
+| [Timsort](Timsort.md) | Ω(n) | Θ(n log(n)) | Θ(n log(n)) | O(n) |
+| [Tree Sort](TreeSort.md) | Ω(n log(n))  | Θ(n log(n)) | O(n<sup>2</sup>) | O(n) |
 
 ## Conclusion
