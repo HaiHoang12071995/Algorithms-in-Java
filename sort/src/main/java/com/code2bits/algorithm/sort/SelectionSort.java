@@ -25,59 +25,44 @@ package com.code2bits.algorithm.sort;
 
 
 /**
- * The SelectionSort class implements the Selection algorithm for sorting an array of integers. 
- * 
- * The algorithm divides the input list into two parts. The first sublist is built up from left to right and 
- * contains items that are already sorted. The second sublist contains the items to be sorted. Initially, the
- * sorted sublist is empty and the unsorted sublist is the entire input list.  The algorithm starts by 
- * finding the smallest element in the unsorted sublist, swapping it with the leftmost unsorted element. This
- * places the element in a sorted position, and moving the sublist boundaries one element to the right.
+ * The SelectionSort class implements the Selection algorithm for sorting an array of integers. The algorithm
+ * divides the input list into two parts, sorted and unsorted. The algorithm looks for the largest element in
+ * the unsorted section and swap it with the last position in the unsorted partition.    
  * 
  * @author	André Maré
  */
 public final class SelectionSort {
 	
 	
-	/**
-	 * The sort method is invoked by external classes to sort an array of integers by making use of the 
-	 * SelectionSort algorithm.
-	 */
-	public void sort(int[] collection) {
-		if (collection != null) {
-			selectionSort(collection);
-		} else {
-			throw new IllegalArgumentException("Input paramenter for array to sort is null.");
-		}
-	}
+    public void sort(int[] collection) {
+        if (collection != null) {
+            selectionSort(collection);
+        } else {
+            throw new IllegalArgumentException("Input paramenter for array to sort is null.");
+        }
+    }
 	
 	
-	/**
-	 * The method implements the selection sorting algorithm which is all about locating the smallest value 
-	 * from the unsorted part of the array and places it at the position indicated by the iterator.
-	 */
-	private void selectionSort(int[] collection) {
-		int arrayLength = collection.length;
-		
-		for (int i=0; i < arrayLength; i++) {
-			int minPosition = i;
-			
-			for (int j=i+1; j<arrayLength; j++) {
-				if (collection[j] < collection[minPosition]) {
-					minPosition = j;					
-				}
-			}
-			swap(collection, minPosition, i);
-		} 
-	} 
+    private void selectionSort(int[] collection) {
+        int arrayLength = collection.length;
+        
+        for (int unsortIndex = arrayLength - 1; unsortIndex > 0; unsortIndex--) {
+            int largest = 0;
+            for (int i = 1; i <= unsortIndex; i++) {
+                if (collection[i] > collection[largest]) {
+                    largest = i;
+                }
+            }
+            swap(collection, largest, unsortIndex);
+        }
+    } 
 	
+
+    private void swap(int[] collection, int x, int y) {
+        int temp = collection[x];
+        collection[x] = collection[y];
+        collection[y] = temp;
+    } 
 	
-	/**
-	 * The method swaps two values around within an array based on the two input parameters x and y.
-	 */
-	private void swap(int[] collection, int x, int y) {
-		int temp = collection[x];
-		collection[x] = collection[y];
-		collection[y] = temp;
-	} 
 	
 }
