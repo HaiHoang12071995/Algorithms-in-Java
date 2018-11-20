@@ -30,7 +30,7 @@ package com.code2bits.algorithm.sort;
  * gets swapped if they are in the wrong order. The algorithm gets its name from the way smaller or larger 
  * elements "bubble" to the top of the list.
  * 
- * The BubbleSortRecursive implements the BubbleSort algorithm by making use of recursion.
+ * The BubbleSortRecursive class implements the BubbleSort algorithm by making use of recursion.
  * 
  * @author	André Maré
  */
