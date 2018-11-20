@@ -36,10 +36,6 @@ package com.code2bits.algorithm.sort;
 public final class BubbleSort {
 
 		
-	/**
-	 * The sort method is invoked by external classes to sort an array of integers by making use of the 
-	 * BubbleSort algorithm.
-	 */
 	public void sort(int[] collection) {
 		if (collection != null) {
 			bubbleSort(collection);
@@ -49,10 +45,6 @@ public final class BubbleSort {
 	} 
 	
 	
-	/**
-	 * The Bubble Sort algorithm repeatedly steps through the list and compare each adjacent item. The pair 
-	 * of values gets swapped if they are in the wrong order.
-	 */
 	private void bubbleSort(int[] collection) {
         int n = collection.length;
         for (int i = 0; i < n-1; i++) {
@@ -65,9 +57,6 @@ public final class BubbleSort {
 	}
         
         
-    	/**
-    	 * The method swaps two values around within an array based on the two input parameters x and y.
-    	 */
     	private void swap(int[] collection, int x, int y) {
     		int temp = collection[x];
     		collection[x] = collection[y];
