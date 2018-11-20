@@ -40,74 +40,53 @@ package com.code2bits.algorithm.sort;
 public final class QuickSort {
 	
 	
-	/**
-	 * The sort method is invoked by external classes to sort an array of integers by making use of the 
-	 * QuickSort algorithm.
-	 */
-	public void sort(int[] collection) {
-		if (collection != null) {
-			quickSort(collection, 0, collection.length-1);
-		} else {
-			throw new IllegalArgumentException("Input paramenter for array to sort is null.");
-		}
-	} 
-	
-	
-	/**
-	 * The method recursively call the QuickSort algorithm on the two sub-arrays based on the position of the
-	 * pivot until the first and last position of the sub-array is the same. This means that once a sub-array 
-	 * consist of a single element, the recursion will end.
-	 */
-	private void quickSort(int[] collection, int firstPosition, int lastPosition) {
-		if (firstPosition >= lastPosition) {
-			return;
-		} else {			
-			int pivotIndex = partition(collection, firstPosition, lastPosition);
-			quickSort(collection, firstPosition, pivotIndex-1);
-			quickSort(collection, pivotIndex+1, lastPosition);
-		} 		
-	} 
-	
-	
-	/**
-	 * The partition phase of QuickSort selects a pivot within the array and swap the values around so 
-	 * that all the values smaller than the pivot is to the left of the pivot position, and all the values 
-	 * larger than the pivot is to the right of the pivot position. The sub-arrays to the left and right of
-	 * pivot position may not be sorted.
-	 */
-	private int partition(int[] collection, int firstPosition, int lastPosition) {	
-		int pivotIndex = selectPivot(firstPosition, lastPosition);
-		swap (collection, pivotIndex, lastPosition);
-		int store = firstPosition;
-		pivotIndex = lastPosition;
-		for (int i = firstPosition; i <= lastPosition-1 ; i++) {
-			if (collection[i] <= collection[pivotIndex]) {
-				swap (collection, i, store);
-				store++;
-			}
-		}
-		swap (collection, store, pivotIndex);
-		pivotIndex = store;
-		return pivotIndex;
-	} 	
-	
-	
-	/**
-	 * The method swaps two values around within an array based on the two input parameters x and y.
-	 */
-	private void swap(int[] collection, int x, int y) {
-		int temp = collection[x];
-		collection[x] = collection[y];
-		collection[y] = temp;
-	} 
+    public void sort(int[] collection) {
+        if (collection != null) {
+            quickSort(collection, 0, collection.length-1);
+        } else {
+            throw new IllegalArgumentException("Input paramenter for array to sort is null.");
+        }
+    } 
 	
 
-	/**
-	 * This method performs the pivot selection. 
-	 */
-	private int selectPivot(int first, int last) {
-		return (first+last)/2;
-	} 
+    private void quickSort(int[] collection, int firstPosition, int lastPosition) {
+        if (firstPosition >= lastPosition) {
+            return;
+        } else {			
+            int pivotIndex = partition(collection, firstPosition, lastPosition);
+            quickSort(collection, firstPosition, pivotIndex-1);
+            quickSort(collection, pivotIndex+1, lastPosition);
+        } 		
+    } 
+	
+
+    private int partition(int[] collection, int firstPosition, int lastPosition) {	
+        int pivotIndex = selectPivot(firstPosition, lastPosition);
+        swap (collection, pivotIndex, lastPosition);
+        int store = firstPosition;
+        pivotIndex = lastPosition;
+        for (int i = firstPosition; i <= lastPosition-1 ; i++) {
+            if (collection[i] <= collection[pivotIndex]) {
+                swap (collection, i, store);
+                store++;
+            }
+        }
+        swap (collection, store, pivotIndex);
+        pivotIndex = store;
+        return pivotIndex;
+    } 	
+	
+	
+    private void swap(int[] collection, int x, int y) {
+        int temp = collection[x];
+        collection[x] = collection[y];
+        collection[y] = temp;
+    } 
+	
+
+    private int selectPivot(int first, int last) {
+        return (first+last)/2;
+    } 
 
 	
 } 
