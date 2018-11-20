@@ -54,7 +54,6 @@ public final class InsertionSort {
             for (iterator = unsortIndex; iterator > 0 && collection[iterator - 1] > newElement; iterator--) {
                 collection[iterator] = collection[iterator - 1];
             }
-
             collection[iterator] = newElement;
         }
     }
