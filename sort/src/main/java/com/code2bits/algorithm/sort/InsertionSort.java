@@ -25,51 +25,38 @@ package com.code2bits.algorithm.sort;
 
 
 /**
- * The InsertionSort class implements the InsertionSort algorithm for sorting an array of integers.  
- * 
- * Insertion sort is a sorting algorithm that builds the final sorted array (or list) one item at a time. 
- * The algorithm iterates over the list and removes the current element, finds the location within the 
- * sorted part of the list, and inserts it there.  This process is repeated until the whole list is 
- * sorted.
+ * The InsertionSort class implements the InsertionSort algorithm for sorting an array of integers. Insertion 
+ * sort is a sorting algorithm that builds the final sorted array (or list) one item at a time. The algorithm 
+ * iterates over the list and removes the current element, finds the location within the sorted part of the 
+ * list, and inserts it there.  This process is repeated until the whole list is sorted.
  * 
  * @author	André Maré
  */
 public final class InsertionSort {
 	
-	
-	/**
-	 * The sort method is invoked by external classes to sort an array of integers by making use of the 
-	 * InsertionSort algorithm.
-	 */
-	public void sort(int[] collection) {
-		if (collection != null) {
-			insertionSort(collection);
-		} else {
-			throw new IllegalArgumentException("Input parameter for array to sort is null.");
-		}
-	} 
-	
-	
-	/**
-	 * Insertion sort is a sorting algorithm that builds the final sorted array (or list) one item at a time. 
-	 * The algorithm iterates over the list and removes the current element, finds the location within the 
-	 * sorted part of the list, and inserts it there.  This process is repeated until the whole list is 
-	 * sorted.
-	 */
-	private void insertionSort(int[] collection) {
-		int arrayLength = collection.length;
-	
-		for (int i=1; i < arrayLength; ++i) {
-			int keyValue = collection[i];
-			int iterator = i-1;
- 
-			while (iterator>=0 && collection[iterator] > keyValue) {
-				collection[iterator+1] = collection[iterator];
-				iterator = iterator-1;
-			}
-			collection[iterator+1] = keyValue;
-		}
-	}
-	
-	
+    
+    public void sort(int[] collection) {
+        if (collection != null) {
+            insertionSort(collection);
+        } else {
+            throw new IllegalArgumentException("Input parameter for array to sort is null.");
+        }
+    } 
+    
+    
+    private void insertionSort(int[] collection) {
+        int arrayLength = collection.length;
+        
+        for (int unsortIndex = 1; unsortIndex < arrayLength;  unsortIndex++) {
+            int newElement = collection[unsortIndex];
+            int iterator = 0;
+
+            for (iterator = unsortIndex; iterator > 0 && collection[iterator - 1] > newElement; iterator--) {
+                collection[iterator] = collection[iterator - 1];
+            }
+
+            collection[iterator] = newElement;
+        }
+    }
+
 }
