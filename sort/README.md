@@ -50,7 +50,7 @@ Sorting algorithms are common in introductory computer science classes. Sorting 
 [4]: #
 [5]: https://www.code2bits.com/insertion-sort-algorithm-in-java/
 [6]: https://www.code2bits.com/merge-sort-algorithm-in-java/
-[7]: #
+[7]: https://www.code2bits.com/quick-sort-algorithm-in-java/
 [8]: #
 [9]: https://www.code2bits.com/selection-sort-algorithm-in-java/
 [10]: https://www.code2bits.com/shell-sort-algorithm-in-java/
