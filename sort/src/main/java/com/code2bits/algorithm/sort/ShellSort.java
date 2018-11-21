@@ -25,8 +25,8 @@ package com.code2bits.algorithm.sort;
 
 
 /**
- * The Shellsort class implements the Shellsort algorithm used for sorting an array of integers. Shellsort 
- * is an in-place comparison sort algorithm. Shellsort is a generalization of insertion sort that allows 
+ * The ShellSort class implements the Shell Sort algorithm used for sorting an array of integers. Shell Sort 
+ * is an in-place comparison sort algorithm. Shell Sort is a generalization of insertion sort that allows 
  * the exchange of items that are far apart. The algorithm starts by sorting pairs of elements far apart from
  * each other. The algorithm progressively reduce the gap between elements to be compared.
  * 
