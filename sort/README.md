@@ -26,19 +26,33 @@ The following algorithms are examples of internal sorting algorithms:
 
 | Algorithm Name | Time Complexity: Best | Time Complexity: Average | Time Complexity: Worst | Space Complexity: Worst |
 | --- | :---: | :---: | :---: | :---: |
-| [Bubble Sort](BubbleSort.md) | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
-| [Bucket Sort](BucketSort.md) | Ω(n+k) | Θ(n+k) | O(n<sup>2</sup>) |  O(n) |
-| [Counting Sort](CountingSort.md) | Ω(n+k) | Θ(n+k) | O(n+k) | O(k) |
-| [Cube Sort](CubeSort.md) | Ω(n) | Θ(n log(n)) | O(n log(n)) | O(n) |
-| [Heapsort](Heapsort.md) | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(1) |
-| [Insertion Sort](InsertionSort.md) | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
-| [Mergesort](Mergesort.md) | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(n) |
-| [Quicksort](Quicksort.md) | Ω(n log(n)) | Θ(n log(n)) | O(n<sup>2</sup> | O(n log(n)) |
-| [Radix Sort](RadixSort.md) | Ω(nk) | Θ(nk) | O(nk) | O(n+k) |
-| [Selection Sort](SelectionSort.md) | Ω(n<sup>2</sup>) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
-| [Shell Sort](ShellSort.md) | Ω(n log(n)) | Θ(n log<sup>2</sup>n)  | O(n<sup>2</sup>) | O(1) |
-| [Timsort](Timsort.md) | Ω(n) | Θ(n log(n)) | Θ(n log(n)) | O(n) |
-| [Tree Sort](TreeSort.md) | Ω(n log(n))  | Θ(n log(n)) | O(n<sup>2</sup>) | O(n) |
+| [Bubble Sort][0] | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
+| [Bucket Sort][1] | Ω(n+k) | Θ(n+k) | O(n<sup>2</sup>) |  O(n) |
+| [Counting Sort][2] | Ω(n+k) | Θ(n+k) | O(n+k) | O(k) |
+| [Cube Sort][3] | Ω(n) | Θ(n log(n)) | O(n log(n)) | O(n) |
+| [Heapsort][4] | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(1) |
+| [Insertion Sort][5] | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
+| [Mergesort][6] | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(n) |
+| [Quicksort][7] | Ω(n log(n)) | Θ(n log(n)) | O(n<sup>2</sup> | O(n log(n)) |
+| [Radix Sort][8] | Ω(nk) | Θ(nk) | O(nk) | O(n+k) |
+| [Selection Sort][9] | Ω(n<sup>2</sup>) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
+| [Shell Sort][10] | Ω(n log(n)) | Θ(n log<sup>2</sup>n)  | O(n<sup>2</sup>) | O(1) |
+| [Timsort][11] | Ω(n) | Θ(n log(n)) | Θ(n log(n)) | O(n) |
+| [Tree Sort][12] | Ω(n log(n))  | Θ(n log(n)) | O(n<sup>2</sup>) | O(n) |
 
 ## Conclusion
 Sorting algorithms are common in introductory computer science classes. Sorting Algorithms provides an introduction to core algorithms concepts such as Big O notation, data structures and understanding algorithm complexity in context of time and space.
+
+[0]: https://www.code2bits.com/bubble-sort-algorithm-in-java/
+[1]: #
+[2]: #
+[3]: #
+[4]: #
+[5]: https://www.code2bits.com/insertion-sort-algorithm-in-java/
+[6]: #
+[7]: #
+[8]: #
+[9]: https://www.code2bits.com/selection-sort-algorithm-in-java/
+[10]: https://www.code2bits.com/shell-sort-algorithm-in-java/
+[11]: #
+[12]: #
