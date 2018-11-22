@@ -27,18 +27,18 @@ The following algorithms are examples of internal sorting algorithms:
 | Algorithm Name | Time Complexity: Best | Time Complexity: Average | Time Complexity: Worst | Space Complexity: Worst |
 | --- | :---: | :---: | :---: | :---: |
 | [Bubble Sort][0] | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
-| [Bucket Sort][1] | Ω(n+k) | Θ(n+k) | O(n<sup>2</sup>) |  O(n) |
+| Bucket Sort | Ω(n+k) | Θ(n+k) | O(n<sup>2</sup>) |  O(n) |
 | [Counting Sort][2] | Ω(n+k) | Θ(n+k) | O(n+k) | O(k) |
-| [Cube Sort][3] | Ω(n) | Θ(n log(n)) | O(n log(n)) | O(n) |
-| [Heapsort][4] | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(1) |
+| Cube Sort | Ω(n) | Θ(n log(n)) | O(n log(n)) | O(n) |
+| Heap Sort | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(1) |
 | [Insertion Sort][5] | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
-| [Mergesort][6] | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(n) |
-| [Quicksort][7] | Ω(n log(n)) | Θ(n log(n)) | O(n<sup>2</sup> | O(n log(n)) |
-| [Radix Sort][8] | Ω(nk) | Θ(nk) | O(nk) | O(n+k) |
+| [Merge Sort][6] | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(n) |
+| [Quick Sort][7] | Ω(n log(n)) | Θ(n log(n)) | O(n<sup>2</sup> | O(n log(n)) |
+| Radix Sort | Ω(nk) | Θ(nk) | O(nk) | O(n+k) |
 | [Selection Sort][9] | Ω(n<sup>2</sup>) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |
 | [Shell Sort][10] | Ω(n log(n)) | Θ(n log<sup>2</sup>n)  | O(n<sup>2</sup>) | O(1) |
-| [Timsort][11] | Ω(n) | Θ(n log(n)) | Θ(n log(n)) | O(n) |
-| [Tree Sort][12] | Ω(n log(n))  | Θ(n log(n)) | O(n<sup>2</sup>) | O(n) |
+| Timsort | Ω(n) | Θ(n log(n)) | Θ(n log(n)) | O(n) |
+| Tree Sort | Ω(n log(n))  | Θ(n log(n)) | O(n<sup>2</sup>) | O(n) |
 
 ## Conclusion
 Sorting algorithms are common in introductory computer science classes. Sorting Algorithms provides an introduction to core algorithms concepts such as Big O notation, data structures and understanding algorithm complexity in context of time and space.
