@@ -45,7 +45,7 @@ Sorting algorithms are common in introductory computer science classes. Sorting 
 
 [0]: https://www.code2bits.com/bubble-sort-algorithm-in-java/
 [1]: #
-[2]: #
+[2]: https://www.code2bits.com/counting-sort-in-java/
 [3]: #
 [4]: #
 [5]: https://www.code2bits.com/insertion-sort-algorithm-in-java/
